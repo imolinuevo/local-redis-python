@@ -1,0 +1,19 @@
+version: '3'
+
+networks:
+  main:
+
+volumes:
+  redis_data:
+
+services:
+  redis:
+    container_name: custom-redis
+    hostname: custom-redis
+    networks:
+      - main
+    build: ./redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
