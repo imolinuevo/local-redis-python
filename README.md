@@ -1,5 +1,5 @@
-# Local Redis Python
-Local Redis docker example with python connection.
+# Local Redis (Rejson) Python
+Local Redis (Rejson) docker example with python connection.
 
 ## Installation
 > The following steps guide you through the installation in an **ubuntu** system.
